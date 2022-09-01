@@ -156,6 +156,7 @@ a.main-button-slider {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  z-index: 9999;
 }
 
 a.main-button-slider:hover {
@@ -175,6 +176,7 @@ a.main-button {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  z-index: 9999;
 }
 
 a.main-button:hover {
@@ -197,6 +199,7 @@ button.main-button {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  
 }
 
 button.main-button:hover {
@@ -791,6 +794,7 @@ about
 .features-item .main-button {
   margin-top: 35px;
   display: inline-block;
+  
 }
 
 
@@ -808,6 +812,7 @@ promotion
   display: inline-block;
   height: 110%;
   margin-top: -200px;
+  z-index: 0;
 }
 
 #promotion {
@@ -860,6 +865,7 @@ testimonials
   display: inline-block;
   height: 110%;
   margin-top: -200px;
+  z-index: 0;
 }
 
 #testimonials {
@@ -930,6 +936,7 @@ testimonials
   background: rgb(244,129,63);
   background: linear-gradient(145deg, #55b0f1 0%, #3f4ff4 100%);
   position: absolute;
+  
 }
 
 .owl-carousel .owl-nav button.owl-prev span {
